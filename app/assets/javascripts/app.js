@@ -28,7 +28,7 @@ angular.module('HOVDirection', [
   function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
-      .state('hovdirectionbower angular angular-ui-router bootstrap install angular-animate angular-aria angular-material --save', {
+      .state('hovdirection', {
       url: '',
       abstract: 'true'
     });

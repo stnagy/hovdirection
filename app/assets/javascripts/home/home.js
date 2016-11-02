@@ -5,7 +5,7 @@ angular.module('HOVDirection.Home', [
   'ngMdIcons'
 ])
 
-  .config(function($stateProvider){
+  .config(['$stateProvider', function($stateProvider){
   $stateProvider
 
     .state('hovdirection.landing',{
@@ -17,12 +17,12 @@ angular.module('HOVDirection.Home', [
       }
     }
   })
-})
+}])
 
 // Landing page controller
-  .controller('LandingPageCtrl', function ($mdDialog, $window){
+  .controller('LandingPageCtrl', ['$mdDialog', '$window', function ($mdDialog, $window){
   var landingPageCtrl = this;
 
   landingPageCtrl.appName = "HOVDirection"; 
-})
+}])
 ;
