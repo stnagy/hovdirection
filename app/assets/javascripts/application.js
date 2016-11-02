@@ -17,7 +17,7 @@
 // }
 //
 // then:
-// bower angular angular-ui-router bootstrap install angular-animate angular-aria angular-material --save
+// bower install angular angular-ui-router bootstrap install angular-animate angular-aria angular-material --save
 //
 //= require angular
 //= require angular-ui-router

@@ -57,3 +57,18 @@ Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0
 
 Started GET "/assets/application.self-ce0d3b522c8e6c5a174d5b187b017ba3b73c45264ab6643f281f4dfd0a031da7.js?body=1" for 96.231.37.77 at 2016-11-02 13:39:29 +0000
 Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-02 13:54:05 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (1519.5ms)
+Completed 200 OK in 1532ms (Views: 1531.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.self-b703b95f386c29ad65364762d1510534025332a08cf0d617a9616708c24401c9.js?body=1" for 96.231.37.77 at 2016-11-02 13:54:06 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-35855967e465c3b4b0faaccb60aebb32ff4f4b6bea826708c851f0b847b7684f.js?body=1" for 96.231.37.77 at 2016-11-02 13:54:06 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255

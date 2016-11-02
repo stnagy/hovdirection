@@ -8,7 +8,7 @@ angular.module('HOVDirection.Home', [
   .config(function($stateProvider){
   $stateProvider
 
-    .state('grillpi.landing',{
+    .state('hovdirection.landing',{
     url: '/',
     views: {
       'main@': { // target the 'main' ng-view directive
