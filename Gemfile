@@ -52,7 +52,7 @@ end
 
 # Database stuff
 group :production do 
-  gem 'mysql2', '>= 0.3.13', '< 0.5'
+  gem 'pg'
 end
 
 group :development do
