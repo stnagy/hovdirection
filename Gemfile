@@ -33,8 +33,6 @@ gem 'curb'
 gem 'mechanize'
 # Use sucker punch to minimize costs (web dyno can do workers)
 gem 'sucker_punch'
-# Use fist of fury for recurring sucker_punch jobs
-gem 'fist_of_fury'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

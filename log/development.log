@@ -976,3 +976,878 @@ Processing by DirectionsController#current as HTML
   [1m[36mDirection Load (0.3ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
 Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
   [1m[35mDirection Load (0.5ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:03:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (1476.9ms)
+Completed 200 OK in 1482ms (Views: 1481.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home/home.tmpl.self-ad146bcef017e98e6f3b402e2d4d71f4787e30cef0e5421d610862c768584af5.js?body=1" for 96.231.37.77 at 2016-11-19 19:03:11 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:03:12 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.4ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 13ms (Views: 1.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:03:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (42.4ms)
+Completed 200 OK in 44ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:03:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[36mDirection Load (0.4ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:03:31 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:04:22 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (459.6ms)
+Completed 200 OK in 463ms (Views: 461.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home/home.tmpl.self-9bfe5a97f7dde7cc318fdde58bc42f8205ca44913b84c83a99d7285493244816.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:04:23 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.3ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (418.9ms)
+Completed 200 OK in 420ms (Views: 419.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-f0c705a5dfe388834b72c98830bdbf0c5c6a42337fa0fd7a64045a84f35ff3d0.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:35 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:36 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:36 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:36 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:04:36 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:04:36 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[36mDirection Load (0.3ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:04:50 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (396.1ms)
+Completed 200 OK in 398ms (Views: 397.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-f7bf1723825a6deb745434902796c48569d7e5214c40e3c42f4e735048afad82.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:04:51 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.3ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:05:13 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (90.4ms)
+Completed 200 OK in 92ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-f7bf1723825a6deb745434902796c48569d7e5214c40e3c42f4e735048afad82.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:05:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[36mDirection Load (0.3ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (416.6ms)
+Completed 200 OK in 418ms (Views: 417.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-e46570403db6d23541996dd5a23cd6b5b54fdd4e0aebaf25507846c0f77b52bc.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:05:45 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:05:46 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.3ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (24.1ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:48 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-e46570403db6d23541996dd5a23cd6b5b54fdd4e0aebaf25507846c0f77b52bc.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:49 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:49 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:05:49 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:05:49 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:05:49 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[36mDirection Load (0.4ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (31.6ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-e46570403db6d23541996dd5a23cd6b5b54fdd4e0aebaf25507846c0f77b52bc.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:08:10 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:08:11 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.3ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:09:13 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (377.3ms)
+Completed 200 OK in 379ms (Views: 378.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-4449ebe864479304b7bd084763f8a67f1216d51db5510d0365b4ca2a36fbcc4d.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:09:14 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[36mDirection Load (0.4ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:09:29 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (435.5ms)
+Completed 200 OK in 437ms (Views: 436.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-5ffef94d3d9a81ac82e85e4d65edb887bc4bfa9578c5649ed55832f78a51642f.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:09:30 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.4ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 4ms (Views: 1.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (414.3ms)
+Completed 200 OK in 416ms (Views: 415.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-798b72fa9ff9a84619aba556efe9d6795f1f1e3905aeb28a6a5915e249721fe2.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:19 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:20 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:20 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:20 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:11:20 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:11:20 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:11:20 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[36mDirection Load (0.4ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb (32.0ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-ce4ff876691504f0f28b3c9bae0e691c640bbc9e2c4aa6dc2fe9fe0fe7e9bb1b.css?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-c287e0ec3bc63bf80fa9a5dca3924ea1c356c41449957dcbe92ccdb7c0cdff87.css?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3d6d79168e591fbc40f163daad1dda3afdcddb77ed122d58d5b3a72d5f5052af.css?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-material/angular-material.self-7da646fa80d815a4ab7457c1721ae7fe722ebb2b821ed2e8edb4651da9af5159.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-rails-templates.self-52d79f1367a1ff2e72f1cd78cc95c253add68974791e5006f7cc711cd715aa52.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular/angular.self-7f8df3e3ebe7623e233b951726e7da238883fa9e7a98b987ac7aecccf5f00510.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-75b555bd54e64f7d2b5892cbb6def68576df012a8139b5917c51407de696d0de.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:17 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-animate/angular-animate.self-5d9f8588021d859bd3d84daad95b5b136b8e6150dc1a3d855a7a6bd468099fac.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/angular-aria/angular-aria.self-305ef5df1cc989159bcf9faf7b25123fd99400e3c2ba424369a509f3b7ab5559.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/app.self-481f346f7a9c4f270cf746bca0468c62d330ccff15461ccccf2e7c11c89bf895.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.tmpl.self-798b72fa9ff9a84619aba556efe9d6795f1f1e3905aeb28a6a5915e249721fe2.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home/home.self-9d3a256c8d39d997e6e6bab0e20faf2a9b540745cab2cd176642bea06e4e3ac7.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/services/directionFactory.self-5d254d450ffe5220673399d39955df96ccbd830430a7faa25179567b3c74e900.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-708507e8407c59c29468ab9be09a422d1c505f89ce917c493c9aefa87e2a7ca7.js?body=1" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/api/direction" for 96.231.37.77 at 2016-11-19 19:14:18 +0000
+Cannot render console from 96.231.37.77! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by DirectionsController#current as HTML
+  [1m[35mDirection Load (0.4ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "directions" ("direction", "created_at", "updated_at") VALUES (?, ?, ?)  [["direction", "f"], ["created_at", "2016-11-19 19:21:07.204892"], ["updated_at", "2016-11-19 19:21:07.204892"]]
+  [1m[36m (11.0ms)[0m  [1mcommit transaction[0m
+  [1m[35mDirection Load (0.4ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+  [1m[36mDirection Load (0.3ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "directions" ("direction", "created_at", "updated_at") VALUES (?, ?, ?)  [["direction", "f"], ["created_at", "2016-11-19 19:21:28.676812"], ["updated_at", "2016-11-19 19:21:28.676812"]]
+  [1m[36m (11.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mDirection Load (0.3ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+  [1m[36mDirection Load (0.3ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+  [1m[36mDirection Load (0.6ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "directions" ("direction", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["direction", "f"], ["created_at", "2016-11-19 19:21:49.415105"], ["updated_at", "2016-11-19 19:21:49.415105"]]
+  [1m[35m (13.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "directions" ("direction", "created_at", "updated_at") VALUES (?, ?, ?)  [["direction", "Closed"], ["created_at", "2016-11-19 19:23:30.740345"], ["updated_at", "2016-11-19 19:23:30.740345"]]
+  [1m[36m (11.1ms)[0m  [1mcommit transaction[0m
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "directions" ("direction", "created_at", "updated_at") VALUES (?, ?, ?)  [["direction", "Closed"], ["created_at", "2016-11-19 19:24:11.818579"], ["updated_at", "2016-11-19 19:24:11.818579"]]
+  [1m[36m (16.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mDirection Load (0.4ms)[0m  SELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1
+  [1m[36mDirection Load (0.2ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+  [1m[36mDirection Load (0.6ms)[0m  [1mSELECT  "directions".* FROM "directions"  ORDER BY "directions"."created_at" DESC LIMIT 1[0m
+  [1m[35mFare Load (0.2ms)[0m  SELECT  "fares".* FROM "fares"  ORDER BY "fares"."id" DESC LIMIT 1

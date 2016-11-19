@@ -18,6 +18,11 @@ class Direction < ActiveRecord::Base
         return false
     end
     
+    def self.is_closed?
+        return true if Direction.current.direction == "Closed"
+        return false
+    end
+    
     def self.scrape_current
         agent = Mechanize.new()
         response = agent.get("https://expresslanes.com/on-the-road")
@@ -28,6 +33,8 @@ class Direction < ActiveRecord::Base
             return "Southbound"
         elsif current_direction_text.match(/northbound/i)
             return "Northbound"
+        elsif current_direction_text.match(/closed/i)
+            return "Closed"
         else
             return false
         end

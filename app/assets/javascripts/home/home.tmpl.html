@@ -1,3 +1,10 @@
-<div layout='column' flex style="width:100%">
-    <h1 class="md-display-3">{{ landingPageCtrl.direction }}</h1>
+<div layout='column' ng-cloak="">
+    <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2 class="md-flex">95/395 HOV Direction</h2>
+    </div>
+  </md-toolbar>
+    <md-content flex="" layout-padding="">
+        <p>The HOV Lanes are currently moving: {{ landingPageCtrl.direction }}</p>
+    </md-content>
 </div>
