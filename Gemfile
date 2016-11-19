@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
@@ -27,6 +27,14 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# Use curb for libcurl bindings
+gem 'curb'
+# Use mechanize for traditional scraping
+gem 'mechanize'
+# Use sucker punch to minimize costs (web dyno can do workers)
+gem 'sucker_punch'
+# Use fist of fury for recurring sucker_punch jobs
+gem 'fist_of_fury'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -52,7 +60,10 @@ end
 
 # Database stuff
 group :production do 
+  # Use pg database for heroku
   gem 'pg'
+  # Use rails_12factor for heroku
+  gem 'rails_12factor'
 end
 
 group :development do

@@ -20,9 +20,24 @@ angular.module('HOVDirection.Home', [
 }])
 
 // Landing page controller
-  .controller('LandingPageCtrl', ['$mdDialog', '$window', function ($mdDialog, $window){
+  .controller('LandingPageCtrl', ['$mdDialog', '$window', '$log', 'directionFactory', function ($mdDialog, $window, $log, directionFactory){
   var landingPageCtrl = this;
-
   landingPageCtrl.appName = "HOVDirection"; 
+
+  function init(){
+    
+    // get data for direction
+    directionFactory.getDirection()
+      .then(function(response) {
+        landingPageCtrl.direction = response.data.direction;
+      }, function(data, status) {
+        $log.log(data.error + ' ' + status);
+      });
+    
+  }
+  
+  init();
+  
+  
 }])
 ;
