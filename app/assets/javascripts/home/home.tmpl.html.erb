@@ -1,0 +1,24 @@
+<div layout='column' ng-cloak="">
+    <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2 class="md-flex">95/395 HOV Direction</h2>
+    </div>
+  </md-toolbar>
+    <md-content>
+        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Closed'">
+        The HOV Lanes Are Closed
+        </div>
+        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Northbound'">
+        The HOV Lanes Are Open Northbound
+        </div>
+        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Southbound'">
+        The HOV Lanes Are Open Southbound
+        </div>
+        
+    </md-content>
+    <md-content>
+        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Closed'">
+        <%= image_tag 'generate-dms-sign' %>
+        </div>
+    </md-content>
+</div>
