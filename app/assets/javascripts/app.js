@@ -37,5 +37,12 @@ angular.module('HOVDirection', [
 
     $urlRouterProvider.otherwise('/');
   }])
+  
+  .config(['$locationProvider', function($locationProvider) {
+    $locationProvider.html5Mode({
+      enabled: true,
+      requireBase: false
+    });
+  }])
 
 ;

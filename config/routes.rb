@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # json api for angular frontend
   get '/api/direction' => 'directions#current'
   
+  get '*path' => "home#index"
+  
 end
