@@ -1,24 +1,50 @@
 <div layout='column' ng-cloak="">
-    <md-toolbar>
-    <div class="md-toolbar-tools">
-      <h2 class="md-flex">95/395 HOV Direction</h2>
+    <div id='hov-top-panel' style='margin-right: 5%;'>
+        <div id='hov-top-sub-panel'>
+            LEFT EXIT
+        </div>
     </div>
-  </md-toolbar>
-    <md-content>
-        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Closed'">
-        The HOV Lanes Are Closed
-        </div>
-        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Northbound'">
-        The HOV Lanes Are Open Northbound
-        </div>
-        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Southbound'">
-        The HOV Lanes Are Open Southbound
+    <div id='hov-panel' style='margin-right: 5%; margin-left: 5%'>
+        <div id='hov-sub-panel'>
+            
+            <md-content style='background: none' layout-padding="">
+                
+                <div layout="row" layout-align="center">
+                <%= image_tag 'I-95.svg.png', height: '80px' %> <span style='padding-left: 20px;'></span> <%= image_tag '749px-I-395.svg.png', height: '80px' %>
+                </div>
+                <div>
+                <p id='express-lanes'>Express Lanes<br />Current Status:</p>
+                </div>
+            </md-content>
+            
+            <md-content style='background: none;' id='hov-text'>
+                <div layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Closed'">
+                <p><u>CLOSED</u></p>
+                </div>
+                
+                <div layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Northbound'">
+                <p><u>OPEN NORTHBOUND</u></p>
+                </div>
+                
+                <div layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Southbound'">
+                <p><u>OPEN SOUTHBOUND</u></p>
+                </div>
+                
+            </md-content>
+            
+            <md-content style='background: none;'>
+                <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Closed'">
+                <%= image_tag 'generate-dms-sign', height: '140', width: 'auto' %>
+                </div>
+                <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Northbound'">
+                <%= image_tag 'IMG_0728.PNG', height: '140', width: 'auto' %>
+                </div>
+                <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Southbound'">
+                <%= image_tag 'IMG_0728.PNG', height: '140', width: 'auto' %>
+                </div>
+            </md-content>
+            
         </div>
         
-    </md-content>
-    <md-content>
-        <div layout-padding="" layout="row" layout-align="center" ng-if="landingPageCtrl.direction == 'Closed'">
-        <%= image_tag 'generate-dms-sign' %>
-        </div>
-    </md-content>
+    </div>
 </div>

@@ -16,6 +16,58 @@
  *= require_self
  */
 
+#content {
+  background: #fcfcfc;
+}
+
+#hov-panel {
+  background-color:rgba(37, 135, 102, 1);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+}
+
+#hov-top-panel {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5px;
+  background-color:rgba(240, 255, 40, 1);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+  width: 200px;
+}
+
+#hov-sub-panel {
+  margin: 5px;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+
+#hov-top-sub-panel {
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 36px;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 20px;
+}
+
+#hov-text {
+  font-size: 12vw;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 0px;
+  line-height: 48px;
+  text-align: center;
+}
+
+#express-lanes {
+  padding-left: 20px;
+  font-size: 10vw;;
+  line-height: 1em;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
 .contentdemoBasicUsage div.demo-content {
   height: 450px; }
