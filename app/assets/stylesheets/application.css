@@ -57,7 +57,7 @@
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
   padding-left: 0px;
-  line-height: 48px;
+  line-height: 1em;
   text-align: center;
 }
 
@@ -67,6 +67,28 @@
   line-height: 1em;
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width: 800px) {
+  #hov-text {
+    text-align: center ;
+    font-size: 48px;
+  }
+  
+  #express-lanes {
+    text-align: center ;
+    font-size: 32px;
+  }
+  
+  #hov-top-panel {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  #hov-panel {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+  }
 }
 
 .contentdemoBasicUsage div.demo-content {
