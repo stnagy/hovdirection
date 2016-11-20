@@ -14,4 +14,9 @@ namespace :jobs do
         end
         
     end
+    desc "clean db"
+    task :clean => :environment do
+        Direction.where('created_at < ?', 31.days.ago).destroy_all
+        Fare.where('created_at < ?', 31.days.ago).destroy_all
+    end
 end
