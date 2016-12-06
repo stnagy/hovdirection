@@ -104,6 +104,8 @@ GEM
     ntlm-http (0.1.1)
     pg (0.19.0)
     rack (1.6.5)
+    rack-attack (5.0.1)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.5.1)
@@ -197,6 +199,7 @@ DEPENDENCIES
   jquery-rails
   mechanize
   pg
+  rack-attack
   rails (= 4.2.5.1)
   rails_12factor
   responders

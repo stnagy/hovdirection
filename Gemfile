@@ -33,6 +33,8 @@ gem 'curb'
 gem 'mechanize'
 # Use sucker punch to minimize costs (web dyno can do workers)
 gem 'sucker_punch'
+# Use rack attack to block Russia
+gem 'rack-attack'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
