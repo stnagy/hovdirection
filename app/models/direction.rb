@@ -29,9 +29,9 @@ class Direction < ActiveRecord::Base
         json_response = JSON.parse(response.body)
         if json_response['direction_95'].match(/closed/i)
             return "Closed"
-        elsif json_response['direction_95'].match(/N/i)
-            return "Southbound"
         elsif json_response['direction_95'].match(/S/i)
+            return "Southbound"
+        elsif json_response['direction_95'].match(/N/i)
             return "Northbound"
         else
             return false
