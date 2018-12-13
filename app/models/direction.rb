@@ -25,14 +25,17 @@ class Direction < ActiveRecord::Base
     
     def self.scrape_current
         agent = Mechanize.new()
-        response = agent.get("https://www.expresslanes.com/maps-api/get-ramps-price?ramp_entry=200&ramp_exit=215")
-        json_response = JSON.parse(response.body)
-        if json_response['direction_95'].match(/closed/i)
-            return "Closed"
-        elsif json_response['direction_95'].match(/S/i)
-            return "Southbound"
-        elsif json_response['direction_95'].match(/N/i)
+        responseN = agent.get("https://www.expresslanes.com/maps-api/get-ramps-price?ramp_entry=200&ramp_exit=215")
+        responseS = agent.get("https://www.expresslanes.com/maps-api/get-ramps-price?ramp_entry=215&ramp_exit=201")
+        json_responseN = JSON.parse(response1.body)
+        json_responseS = JSON.parse(response2.body)
+        
+        if json_responseN['status_95'].match(/open/i) 
             return "Northbound"
+        elsif json_responseS['status_95'].match(/open/i)
+            return "Southbound"
+        elsif (json_response['status_95'].match(/closed/i) ?? json_responseS['status_95'].match(/closed/i))
+            return "Closed"
         else
             return false
         end
