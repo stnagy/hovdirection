@@ -27,14 +27,14 @@ class Direction < ActiveRecord::Base
         agent = Mechanize.new()
         responseN = agent.get("https://www.expresslanes.com/maps-api/get-ramps-price?ramp_entry=200&ramp_exit=215")
         responseS = agent.get("https://www.expresslanes.com/maps-api/get-ramps-price?ramp_entry=215&ramp_exit=201")
-        json_responseN = JSON.parse(response1.body)
-        json_responseS = JSON.parse(response2.body)
+        json_responseN = JSON.parse(responseN.body)
+        json_responseS = JSON.parse(responseS.body)
         
         if json_responseN['status_95'].match(/open/i) 
             return "Northbound"
         elsif json_responseS['status_95'].match(/open/i)
             return "Southbound"
-        elsif (json_response['status_95'].match(/closed/i) ?? json_responseS['status_95'].match(/closed/i))
+        elsif (json_responseN['status_95'].match(/closed/i) ?? json_responseS['status_95'].match(/closed/i))
             return "Closed"
         else
             return false
