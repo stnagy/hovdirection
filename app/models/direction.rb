@@ -25,16 +25,14 @@ class Direction < ActiveRecord::Base
     
     def self.scrape_current
         agent = Mechanize.new()
-        response = agent.get("https://expresslanes.com/on-the-road")
-        noko = Nokogiri::HTML(response.body)
-        body_text = noko.css("#Content").text
-        current_direction_text = body_text.match(/currently:.+\n/i).to_s
-        if current_direction_text.match(/southbound/i)
-            return "Southbound"
-        elsif current_direction_text.match(/northbound/i)
-            return "Northbound"
-        elsif current_direction_text.match(/closed/i)
+        response = agent.get("https://www.expresslanes.com/maps-api/get-ramps-price?ramp_entry=200&ramp_exit=215")
+        json_response = JSON.parse(response.body)
+        if json_response['direction_95'].match(/closed/i)
             return "Closed"
+        elseif json_response['direction_95'].match(/N/i)
+            return "Southbound"
+        elsif json_response['direction_95'].match(/S/i)
+            return "Northbound"
         else
             return false
         end
