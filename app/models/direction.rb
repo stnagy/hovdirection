@@ -34,7 +34,7 @@ class Direction < ActiveRecord::Base
             return "Northbound"
         elsif json_responseS['status_95'].match(/open/i)
             return "Southbound"
-        elsif (json_responseN['status_95'].match(/closed/i) ?? json_responseS['status_95'].match(/closed/i))
+        elsif (json_responseN['status_95'].match(/closed/i) && json_responseS['status_95'].match(/closed/i))
             return "Closed"
         else
             return false
